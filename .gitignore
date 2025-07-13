@@ -33,8 +33,9 @@ build/
 *.dll
 *.exe
 
-# ...но оставим нужные .dll и .exe:
+# ...но оставим нужные .dll и .lib:
 !cpp_visualizer/QuadTree/SDL2-2.30.1/dll/*.dll
+!cpp_visualizer/QuadTree/SDL2-2.30.1/lib/x64/*.lib
 
 !QuadOctreeVisualizer/python_gui/QuadTree.exe
 !QuadOctreeVisualizer/python_gui/SDL2.dll
